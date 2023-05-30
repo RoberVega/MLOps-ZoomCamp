@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/362f2c62bd2d42d3ae991a3ea14a43df/artifacts
+end_time: 1685374808417
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 362f2c62bd2d42d3ae991a3ea14a43df
+run_name: welcoming-stork-970
+run_uuid: 362f2c62bd2d42d3ae991a3ea14a43df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685374796710
+status: 3
+tags: []
+user_id: rober
