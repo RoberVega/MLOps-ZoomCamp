@@ -125,8 +125,8 @@ def train_best_model(
 
 @flow   
 def main_flow_q3(
-    train_path: str = "homework3/green_tripdata_2022-02.parquet",
-    val_path: str = "homework3/green_tripdata_2022-03.parquet",
+    train_path: str = "homework3/green_tripdata_2023-02.parquet",
+    val_path: str = "homework3/green_tripdata_2023-03.parquet",
 ) -> None:
     """The main training pipeline"""
 
