@@ -1,13 +1,13 @@
 deployments:
-- name: null
-  version: null
-  tags: []
-  description: null
-  schedule: {}
-  flow_name: null
-  entrypoint: null
-  parameters: {}
+- name: taxi_question_2
+  entrypoint: homework3/orchestrate_q2.py:main_flow_q2
+  parameters: {train_path: "homework3/green_tripdata_2022-01.parquet",
+  val_path: "homework3/green_tripdata_2022-02.parquet"}
   work_pool:
-    name: null
-    work_queue_name: null
-    job_variables: {}
+    name: zoompool
+- name: taxi_question_3
+  entrypoint: homework3/orchestrate_q3.py:main_flow_q3
+  parameters: {train_path: "homework3/green_tripdata_2022-02.parquet",
+  val_path: "homework3/green_tripdata_2022-03.parquet"}
+  work_pool:
+    name: zoompool
